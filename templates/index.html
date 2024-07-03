@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Background Color</title>
+    <style>
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: medium;
+        height: 30px;
+    }
+.text{
+        font-weight: bolder;
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+}
+    </style>
+</head>
+<body style="background-color: {{ color }};">
+    <form method="POST" class="btn">
+        <input type="submit" value="Change Color" >
+    </form>
+    <p class="text">Color changed {{ clicks }} times.</p>
+</body>
+</html>
+
+<!-- cd C:\Users\Adnan\Documents\redis\Redis-x64-3.0.504 
+ redis-server.exe-->
