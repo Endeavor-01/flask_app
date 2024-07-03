@@ -16,8 +16,8 @@ Follow these steps to set up and run the application locally.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/Endeavor-01/flask_app.git
+cd flask_app
 ```
 
 ### Step 2: Install Requirements
