@@ -9,3 +9,5 @@ services:
       - redis
   redis:
     image: redis:alpine
+ environment:
+     
